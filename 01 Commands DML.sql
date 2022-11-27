@@ -1,8 +1,10 @@
 --
 --SELECT
+SELECT * FROM pedidos;
 --INSERT
+INSERT INTO pedidos (id_pedido, id_cliente, codigo_producto, fechaped, fechaenvio) values (74, 74, 74, '5/31/2021', '6/16/2021');
 --UPDATE
---DELATE
+--DELETE
 
 -- FROM
 -- WHERE
