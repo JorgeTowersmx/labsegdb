@@ -24,3 +24,6 @@ CREATE TABLE cliente(id serial PRIMARY KEY, nombre VARCHAR(20), apell_pat VARCHA
 
 -- Create table
 CREATE TABLE producto(id SERIAL, cliente_id INT NOT NULL, nom VARCHAR(20), descr VARCHAR(40), precio DECIMAL(5) NOT NULL, PRIMARY KEY(id));
+
+-- Alter password postgresA
+ALTER user postgres WITH PASSWORD 'secret123';
