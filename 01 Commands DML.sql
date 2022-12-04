@@ -1,8 +1,10 @@
 --
 --SELECT
 SELECT * FROM pedidos;
+SELECT domicilio FROM cliente WHERE nombre='Juan';
 --INSERT
 INSERT INTO pedidos (id_pedido, id_cliente, codigo_producto, fechaped, fechaenvio) values (74, 74, 74, '5/31/2021', '6/16/2021');
+INSERT INTO cliente VALUES (1,'Jorge','Lopez','Martinez','Av Siempre Viva #1000');
 --UPDATE
 --DELETE
 
