@@ -27,3 +27,9 @@ CREATE TABLE producto(id SERIAL, cliente_id INT NOT NULL, nom VARCHAR(20), descr
 
 -- Alter password postgresA
 ALTER user postgres WITH PASSWORD 'secret123';
+
+
+
+-- Comandos para MYSQL
+USE laboratorio; -- Use the database laboratorio in MYSQL
+DESCRIBE user; -- See the atributes of table user
