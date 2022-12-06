@@ -26,9 +26,11 @@ ALTER TABLE pedidos DROP COLUMN descripcion;
 CREATE USER 'nuevo_usuario'@'localhost' IDENTIFIED BY 'passwordtemporal';
 
 -- Assign permissions to user
-GRANT ALL PRIVILEGES ON * . * TO 'nuevo_usuario'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'soporte'@'localhost';
 
 --Apply changes
 FLUSH PRIVILEGES;
 
--- Reference by MySQL https://www.hostinger.mx/tutoriales/como-crear-usuario-mysql
+-- SHOW PRIVILEGES by USER
+SHOW GRANTS FOR 'soporte'@'localhost';
+
