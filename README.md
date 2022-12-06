@@ -1,4 +1,9 @@
-# labsegdb
-SQL
+#Seguridad en Base de Datos
+#Labotorio en Seguridad en Base de Datos
+FCFM UANL
 
-El archivo Fundamentals.sql tiene los comandos mas bàsicos para crear una base de datos, asigar permisos a una base de datos y crear una tabla.
+
+SQL (MYSQL y PostgreSQL)
+
+Comandos utilizados en la materia de seguridad en base de datos y laboratorio de seguridad en base de datos en la FCFM de la UANL.
+Este material tiene fines educativos, no se recomienda probar estos comandos en ambientes productivos.
