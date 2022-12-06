@@ -21,3 +21,14 @@ ALTER TABLE pedidos CHANGE COLUMN name product VARCHAR(10);
 
 --Drop column
 ALTER TABLE pedidos DROP COLUMN descripcion;
+
+-- Create users
+CREATE USER 'nuevo_usuario'@'localhost' IDENTIFIED BY 'passwordtemporal';
+
+-- Assign permissions to user
+GRANT ALL PRIVILEGES ON * . * TO 'nuevo_usuario'@'localhost';
+
+--Apply changes
+FLUSH PRIVILEGES;
+
+
