@@ -31,4 +31,4 @@ GRANT ALL PRIVILEGES ON * . * TO 'nuevo_usuario'@'localhost';
 --Apply changes
 FLUSH PRIVILEGES;
 
-
+-- Reference by MySQL https://www.hostinger.mx/tutoriales/como-crear-usuario-mysql
