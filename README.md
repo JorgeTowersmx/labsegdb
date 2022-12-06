@@ -1,5 +1,5 @@
 #Seguridad en Base de Datos
-#Labotorio en Seguridad en Base de Datos
+#Laboratorio en Seguridad en Base de Datos
 FCFM UANL
 
 
