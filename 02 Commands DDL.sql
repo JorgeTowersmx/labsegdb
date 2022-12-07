@@ -29,7 +29,9 @@ CREATE TABLE users(
   gender ENUM('male','female'),
   created_at DATETIME
 );
-  
+--Describe table users
+DESC users;
+
 --Rename a column
 ALTER TABLE pedidos CHANGE COLUMN name product VARCHAR(10);
 
