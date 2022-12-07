@@ -61,7 +61,7 @@ CREATE TABLE users(
   age INT NOT NULL,
   email VARCHAR(50) NOT NULL,
   username VARCHAR(50) NOT NULL UNIQUE,
-  country VARCHAR(10) NOT NULL,
+  country VARCHAR(20) NOT NULL,
   cp VARCHAR(10) NOT NULL,
   gender ENUM('male','female') NOT NULL DEFAULT 'female',
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
