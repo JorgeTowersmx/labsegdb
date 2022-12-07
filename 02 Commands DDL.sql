@@ -25,9 +25,9 @@ CREATE TABLE users(
   lastname VARCHAR(50),
   email VARCHAR(50),
   country VARCHAR(10),
-  cp VARCHARCHAR(10),
-  gender ENUM('male','female', 'other'),
-  created_at DATATIME
+  cp VARCHAR(10),
+  gender ENUM('male','female'),
+  created_at DATETIME
 );
   
 --Rename a column
