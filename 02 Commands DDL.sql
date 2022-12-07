@@ -16,6 +16,20 @@ ALTER COLUMN notes TYPE varchar(500);
 
 
 -- Commands in MYSQL
+
+-- CREATE TABLE 
+CREATE TABLE users(
+  id INT, 
+  name VARCHAR(50),
+  password VARCHAR(50),
+  lastname VARCHAR(50),
+  email VARCHAR(50),
+  country VARCHAR(10),
+  cp VARCHARCHAR(10),
+  gender ENUM('male','female', 'other'),
+  CREATE_AT DATATIME
+);
+  
 --Rename a column
 ALTER TABLE pedidos CHANGE COLUMN name product VARCHAR(10);
 
