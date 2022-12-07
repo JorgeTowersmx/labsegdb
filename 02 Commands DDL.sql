@@ -27,7 +27,7 @@ CREATE TABLE users(
   country VARCHAR(10),
   cp VARCHARCHAR(10),
   gender ENUM('male','female', 'other'),
-  CREATE_AT DATATIME
+  created_at DATATIME
 );
   
 --Rename a column
