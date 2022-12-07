@@ -31,5 +31,8 @@ ALTER user postgres WITH PASSWORD 'secret123';
 
 
 -- Comandos para MYSQL
+
+SHOW DATABASES;
+
 USE laboratorio; -- Use the database laboratorio in MYSQL
 DESCRIBE user; -- See the atributes of table user
