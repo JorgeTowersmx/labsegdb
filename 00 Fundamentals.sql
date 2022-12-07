@@ -32,7 +32,11 @@ ALTER user postgres WITH PASSWORD 'secret123';
 
 -- Comandos para MYSQL
 
-SHOW DATABASES;
+SHOW DATABASES;  -- Show databases
+
+--Control + l Clean terminal in MYSQL
+
+CREATE DATABASE alumnos;  -- Create databases
 
 USE laboratorio; -- Use the database laboratorio in MYSQL
 DESCRIBE user; -- See the atributes of table user
