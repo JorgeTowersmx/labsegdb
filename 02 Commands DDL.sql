@@ -29,6 +29,30 @@ CREATE TABLE users(
   gender ENUM('male','female'),
   created_at DATETIME
 );
+
+
+-- CREATE TABLE with CONSTRAINTS
+--RULES by columns
+--NOT NULL
+--UNIQUE
+--PRIMARY KEY
+--DEFAULT
+--UNSIGNED
+--ENUMS!
+
+CREATE TABLE users(
+  id INT UNSIGNED PRIMARY KEY, 
+  name VARCHAR(50) NOT NULL UNIQUE,
+  password VARCHAR(50),
+  lastname VARCHAR(50),
+  email VARCHAR(50) NOT NULL,
+  country VARCHAR(10) NOT NULL,
+  cp VARCHAR(10) NOT NULL,
+  gender ENUM('male','female') NOT NULL DEFAULT 'female',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+
 --Describe table users
 DESC users;
 
