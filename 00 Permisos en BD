@@ -1,0 +1,24 @@
+-- Comands by MYSQL 
+--First you need create a user
+-- Privilege by Administrator
+GRANT ALL PRIVILEGES ON *.* TO 'appadmin'@'localhost';
+FLUSH PRIVILEGES;
+
+
+-- Privilege by user application
+-- *.*, first * is database and second * is tables
+GRANT SELECT,INSERT,UPDATE, DELETE ON bootcamp.* TO 'appuser'@'localhost';
+FLUSH PRIVILEGES;
+
+--SHOW Privileges
+
+SHOW GRANTS FOR 'appuser'@'localhost';
+
+-- OUTPUT query
+--+-------------------------------------------------------------------------------+
+--| Grants for appuser@localhost                                                  |
+--+-------------------------------------------------------------------------------+
+--| GRANT USAGE ON *.* TO `appuser`@`localhost`                                   |
+--| GRANT SELECT, INSERT, UPDATE, DELETE ON `bootcamp`.* TO `appuser`@`localhost` |
+--+-------------------------------------------------------------------------------+
+
