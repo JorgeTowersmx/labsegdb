@@ -1,3 +1,4 @@
+--MYSQL
 -- Command DDL TYPE
 -- SP Insert 3 values in table users
 DELIMITER //
