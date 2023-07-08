@@ -1,4 +1,4 @@
---
+-- POSTGRESQL
 --SELECT
 SELECT * FROM pedidos;
 SELECT domicilio FROM cliente WHERE nombre='Juan';
