@@ -1,3 +1,4 @@
 \c name_database
+\d --List all tables
 \dt --List tables in database
 \dt+ --List tables in database with size
